@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <!-- Base application theme -->
+    <style name="Theme.Flitero" parent="Theme.Material3.DynamicColors.DayNight">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/metro_blue</item>
+        <item name="colorPrimaryVariant">@color/metro_dark_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/metro_light_blue</item>
+        <item name="colorSecondaryVariant">@color/metro_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/black</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        
+        <!-- Enable edge-to-edge -->
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="28">shortEdges</item>
+    </style>
+    
+    <!-- Colors -->
+    <color name="metro_blue">#0078D4</color>
+    <color name="metro_light_blue">#40E0FF</color>
+    <color name="metro_dark_blue">#004578</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_surface">#1A1A1A</color>
+    
+</resources>
