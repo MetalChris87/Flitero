@@ -8,9 +8,7 @@ data class MetroTile(
     val color: Color,
     val size: Size
 ) {
-    enum class Size(val columns: Int, val rows: Int) {
-        SMALL(1, 1),
-        MEDIUM(2, 1),
-        LARGE(2, 2)
+    enum class Size {
+        SMALL, MEDIUM, LARGE
     }
 }
